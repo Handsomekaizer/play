@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/playstore-clone/static/css/main.c927dfb5.chunk.css",
+    "main.js": "/playstore-clone/static/js/main.1f39638f.chunk.js",
+    "main.js.map": "/playstore-clone/static/js/main.1f39638f.chunk.js.map",
+    "runtime-main.js": "/playstore-clone/static/js/runtime-main.26f74c39.js",
+    "runtime-main.js.map": "/playstore-clone/static/js/runtime-main.26f74c39.js.map",
+    "static/js/2.65229b6b.chunk.js": "/playstore-clone/static/js/2.65229b6b.chunk.js",
+    "static/js/2.65229b6b.chunk.js.map": "/playstore-clone/static/js/2.65229b6b.chunk.js.map",
+    "static/js/3.7a008b5c.chunk.js": "/playstore-clone/static/js/3.7a008b5c.chunk.js",
+    "static/js/3.7a008b5c.chunk.js.map": "/playstore-clone/static/js/3.7a008b5c.chunk.js.map",
+    "index.html": "/playstore-clone/index.html",
+    "static/css/main.c927dfb5.chunk.css.map": "/playstore-clone/static/css/main.c927dfb5.chunk.css.map",
+    "static/js/2.65229b6b.chunk.js.LICENSE.txt": "/playstore-clone/static/js/2.65229b6b.chunk.js.LICENSE.txt",
+    "static/media/footer.css": "/playstore-clone/static/media/Product Sans Regular.d1653840.ttf",
+    "static/media/grid.e191638d.svg": "/playstore-clone/static/media/grid.e191638d.svg",
+    "static/media/keyboard-voice.2554ce5a.svg": "/playstore-clone/static/media/keyboard-voice.2554ce5a.svg",
+    "static/media/menu.406b5013.svg": "/playstore-clone/static/media/menu.406b5013.svg",
+    "static/media/pad.10ca9bf5.svg": "/playstore-clone/static/media/pad.10ca9bf5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26f74c39.js",
+    "static/js/2.65229b6b.chunk.js",
+    "static/css/main.c927dfb5.chunk.css",
+    "static/js/main.1f39638f.chunk.js"
+  ]
+}
