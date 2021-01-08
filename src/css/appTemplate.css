@@ -1,0 +1,63 @@
+@font-face {
+  font-family: google;
+  src: url("../fonts/Product Sans Regular.ttf");
+}
+* {
+  font-family: "google";
+}
+.appTemplate {
+  width: 90px;
+  height: fit-content;
+  background-color: white;
+  margin: 10px;
+  color: black;
+  font-family: google;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.appTemplate div {
+  width: fit-content;
+  margin-right: 10px;
+}
+.apps div img {
+  width: 85px;
+  height: 85px;
+  margin: auto 10px;
+  border-radius: 20px;
+}
+.movies div img {
+  width: 85px;
+  height: 120px;
+  margin: auto 10px;
+  border-radius: 10px;
+}
+.appTemplate .desc {
+  margin: 5px auto 2px;
+  font-size: 15px;
+  margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.appTemplate .size,
+.appTemplate .price {
+  margin: 5px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #606060;
+}
+
+/* style for games.jsx and apps.jsx */
+
+.container .title {
+  opacity: 0.8;
+  margin: 10px auto 10px 25px;
+}
+.container .flexContainer {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.last {
+  margin-bottom: 3rem;
+}
