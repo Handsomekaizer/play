@@ -6,7 +6,7 @@ class AppTemplate extends Component {
       return (
         <div className="appTemplate movies">
           <div>
-            <img src={process.env.PUBLIC_URL + this.props.img} alt="" />
+            <img src={process.env.PUBLIC_URL + "/" + this.props.img} alt="" />
           </div>
           <p className="desc">{this.props.desc}</p>
           <span className="price">{this.props.rating}★</span>
@@ -17,7 +17,7 @@ class AppTemplate extends Component {
       return (
         <div className="appTemplate apps">
           <div>
-            <img src={process.env.PUBLIC_URL + this.props.img} alt="" />
+            <img src={process.env.PUBLIC_URL + "/" + this.props.img} alt="" />
           </div>
           <p className="desc">{this.props.desc}</p>
           <span className="size rating">{this.props.size}</span>
