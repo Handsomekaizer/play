@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/playstore-clone/static/css/main.c927dfb5.chunk.css",
-    "main.js": "/playstore-clone/static/js/main.1f39638f.chunk.js",
-    "main.js.map": "/playstore-clone/static/js/main.1f39638f.chunk.js.map",
+    "main.js": "/playstore-clone/static/js/main.bda2aa2f.chunk.js",
+    "main.js.map": "/playstore-clone/static/js/main.bda2aa2f.chunk.js.map",
     "runtime-main.js": "/playstore-clone/static/js/runtime-main.26f74c39.js",
     "runtime-main.js.map": "/playstore-clone/static/js/runtime-main.26f74c39.js.map",
     "static/js/2.65229b6b.chunk.js": "/playstore-clone/static/js/2.65229b6b.chunk.js",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.26f74c39.js",
     "static/js/2.65229b6b.chunk.js",
     "static/css/main.c927dfb5.chunk.css",
-    "static/js/main.1f39638f.chunk.js"
+    "static/js/main.bda2aa2f.chunk.js"
   ]
 }
