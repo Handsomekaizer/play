@@ -246,6 +246,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -262,6 +263,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -278,6 +280,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -294,6 +297,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -310,6 +314,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -326,6 +331,7 @@ class Games extends Component {
                   desc={a.desc}
                   size={a.size}
                   category={"games"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}

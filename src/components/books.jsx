@@ -283,6 +283,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -300,6 +301,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -317,6 +319,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -334,6 +337,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -351,6 +355,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -368,6 +373,7 @@ class Books extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"books"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}

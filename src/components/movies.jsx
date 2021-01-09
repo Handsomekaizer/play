@@ -7,42 +7,42 @@ class Movies extends Component {
       new_releases: [
         {
           id: 1,
-          img: "movies_img/new_releases/affra-taffri.webp",
+          img: "/movies_img/new_releases/affra-taffri.webp",
           desc: "Affra Taffri",
           rating: "3.7",
           price: "100.00",
         },
         {
           id: 2,
-          img: "movies_img/new_releases/broken-hearts.webp",
+          img: "/movies_img/new_releases/broken-hearts.webp",
           desc: "The Broken Hearts Gallery",
           rating: "3.6",
           price: "120.00",
         },
         {
           id: 3,
-          img: "movies_img/new_releases/door-ke-darshan.webp",
+          img: "/movies_img/new_releases/door-ke-darshan.webp",
           desc: "Door ke Darshan",
           rating: "3.8",
           price: "100.00",
         },
         {
           id: 4,
-          img: "movies_img/new_releases/life-in-year.webp",
+          img: "/movies_img/new_releases/life-in-year.webp",
           desc: "Life In A Year",
           rating: "3.7",
           price: "120.00",
         },
         {
           id: 5,
-          img: "movies_img/new_releases/patra-vaitha.webp",
+          img: "/movies_img/new_releases/patra-vaitha.webp",
           desc: "Patra Vaitha Nerupondru",
           rating: "3.6",
           price: "25.00",
         },
         {
           id: 6,
-          img: "movies_img/new_releases/yellow-rose.webp",
+          img: "/movies_img/new_releases/yellow-rose.webp",
           desc: "Yellow Rose",
           rating: "3.7",
           price: "120.00",
@@ -51,42 +51,42 @@ class Movies extends Component {
       rental: [
         {
           id: 1,
-          img: "movies_img/new-rental/deep-blue-sea.webp",
+          img: "/movies_img/new-rental/deep-blue-sea.webp",
           desc: "Deep Blue Sea 3",
           rating: "3.3",
           price: "150.00",
         },
         {
           id: 2,
-          img: "movies_img/new-rental/invisible-man.webp",
+          img: "/movies_img/new-rental/invisible-man.webp",
           desc: "The Invisible Man (2020)",
           rating: "3.4",
           price: "150.00",
         },
         {
           id: 3,
-          img: "movies_img/new-rental/one-night-bangkok.webp",
+          img: "/movies_img/new-rental/one-night-bangkok.webp",
           desc: "One Night in Bangkok",
           rating: "3.4",
           price: "150.00",
         },
         {
           id: 4,
-          img: "movies_img/new-rental/psycho.webp",
+          img: "/movies_img/new-rental/psycho.webp",
           desc: "Psycho",
           rating: "3.5",
           price: "25.00",
         },
         {
           id: 5,
-          img: "movies_img/new-rental/scoob.webp",
+          img: "/movies_img/new-rental/scoob.webp",
           desc: "SCOOB!",
           rating: "3.7",
           price: "150.00",
         },
         {
           id: 6,
-          img: "movies_img/new-rental/varmaa.webp",
+          img: "/movies_img/new-rental/varmaa.webp",
           desc: "Varmaa",
           rating: "3.3",
           price: "50.00",
@@ -95,42 +95,42 @@ class Movies extends Component {
       science_fiction: [
         {
           id: 1,
-          img: "movies_img/science-fiction/deep-blue-sea.webp",
+          img: "/movies_img/science-fiction/deep-blue-sea.webp",
           desc: "Deep Blue Sea 3",
           rating: "3.3",
           price: "150.00",
         },
         {
           id: 2,
-          img: "movies_img/science-fiction/godzilla.webp",
+          img: "/movies_img/science-fiction/godzilla.webp",
           desc: "Godzilla: King Of The Monsters",
           rating: "4.6",
           price: "150.00",
         },
         {
           id: 3,
-          img: "movies_img/science-fiction/incredible-hulk.webp",
+          img: "/movies_img/science-fiction/incredible-hulk.webp",
           desc: "The Incredible Hulk",
           rating: "4.4",
           price: "120.00",
         },
         {
           id: 4,
-          img: "movies_img/science-fiction/jurassic-world.webp",
+          img: "/movies_img/science-fiction/jurassic-world.webp",
           desc: "Jurassic World: Fallen Kingdom",
           rating: "4.5",
           price: "120.00",
         },
         {
           id: 5,
-          img: "movies_img/science-fiction/power-rangers.webp",
+          img: "/movies_img/science-fiction/power-rangers.webp",
           desc: "Power Rangers",
           rating: "4.5",
           price: "180.00",
         },
         {
           id: 6,
-          img: "movies_img/science-fiction/sonic.webp",
+          img: "/movies_img/science-fiction/sonic.webp",
           desc: "Sonic The Hedgehog",
           rating: "4.1",
           price: "120.00",
@@ -139,42 +139,42 @@ class Movies extends Component {
       bollywood: [
         {
           id: 1,
-          img: "movies_img/bollywood/bahubali-2.webp",
+          img: "/movies_img/bollywood/bahubali-2.webp",
           desc: "Bahubali 2: The Conclusion (Hindi)",
           rating: "4.5",
           price: "100.00",
         },
         {
           id: 2,
-          img: "movies_img/bollywood/hate-story-2.webp",
+          img: "/movies_img/bollywood/hate-story-2.webp",
           desc: "Hate story 2",
           rating: "3.9",
           price: "25.00",
         },
         {
           id: 3,
-          img: "movies_img/bollywood/ki-ka.webp",
+          img: "/movies_img/bollywood/ki-ka.webp",
           desc: "Ki & Ka",
           rating: "3.7",
           price: "25.00",
         },
         {
           id: 4,
-          img: "movies_img/bollywood/love-aaj-kal.webp",
+          img: "/movies_img/bollywood/love-aaj-kal.webp",
           desc: "Love Aaj kal",
           rating: "2.9",
           price: "75.00",
         },
         {
           id: 5,
-          img: "movies_img/bollywood/nasha.webp",
+          img: "/movies_img/bollywood/nasha.webp",
           desc: "Nasha",
           rating: "3.7",
           price: "75.00",
         },
         {
           id: 6,
-          img: "movies_img/bollywood/one-night-stand.webp",
+          img: "/movies_img/bollywood/one-night-stand.webp",
           desc: "One Night Stand",
           rating: "3.6",
           price: "50.00",
@@ -183,42 +183,42 @@ class Movies extends Component {
       batman: [
         {
           id: 1,
-          img: "movies_img/batman/batkid.webp",
+          img: "/movies_img/batman/batkid.webp",
           desc: "Batkid Begins",
           rating: "4.2",
           price: "120.00",
         },
         {
           id: 2,
-          img: "movies_img/batman/batman-killing.webp",
+          img: "/movies_img/batman/batman-killing.webp",
           desc: "Batman: The Killing Joke",
           rating: "4.3",
           price: "120.00",
         },
         {
           id: 3,
-          img: "movies_img/batman/batman-mecks.webp",
+          img: "/movies_img/batman/batman-mecks.webp",
           desc: "Batman Unlimited: Mechs",
           rating: "4.2",
           price: "120.00",
         },
         {
           id: 4,
-          img: "movies_img/batman/batman-unlimited.webp",
+          img: "/movies_img/batman/batman-unlimited.webp",
           desc: "batman Unlimited:Animal",
           rating: "4.2",
           price: "120.00",
         },
         {
           id: 5,
-          img: "movies_img/batman/batman-vs-superman.webp",
+          img: "/movies_img/batman/batman-vs-superman.webp",
           desc: "Batman Vs Superman: Dawn of Justice",
           rating: "4.3",
           price: "120.00",
         },
         {
           id: 6,
-          img: "movies_img/batman/justice-league.webp",
+          img: "/movies_img/batman/justice-league.webp",
           desc: "Justice League",
           rating: "3.2",
           price: "120.00",
@@ -227,42 +227,42 @@ class Movies extends Component {
       exorcism: [
         {
           id: 1,
-          img: "movies_img/exorcism/annabellae-comes-home.webp",
+          img: "/movies_img/exorcism/annabellae-comes-home.webp",
           desc: "Annabelle Comes Home",
           rating: "4.1",
           price: "150.00",
         },
         {
           id: 2,
-          img: "movies_img/exorcism/conjuring-2.webp",
+          img: "/movies_img/exorcism/conjuring-2.webp",
           desc: "The Conjuring 2",
           rating: "4.3",
           price: "120.00",
         },
         {
           id: 3,
-          img: "movies_img/exorcism/ouija.webp",
+          img: "/movies_img/exorcism/ouija.webp",
           desc: "Ouija: Origin of Evil",
           rating: "4.4",
           price: "120.00",
         },
         {
           id: 4,
-          img: "movies_img/exorcism/possession.webp",
+          img: "/movies_img/exorcism/possession.webp",
           desc: "The Possession Of Hannah Grace",
           rating: "4.0",
           price: "80.00",
         },
         {
           id: 5,
-          img: "movies_img/exorcism/ragini-mms.webp",
+          img: "/movies_img/exorcism/ragini-mms.webp",
           desc: "Ragini MMS-2",
           rating: "3.8",
           price: "50.00",
         },
         {
           id: 6,
-          img: "movies_img/exorcism/unborn.webp",
+          img: "/movies_img/exorcism/unborn.webp",
           desc: "The Unborn (Theatrical)",
           rating: "4.1",
           price: "120.00",
@@ -283,6 +283,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -300,6 +301,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -317,6 +319,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -334,6 +337,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -351,6 +355,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}
@@ -368,6 +373,7 @@ class Movies extends Component {
                   rating={a.rating}
                   price={a.price}
                   category={"movies"}
+                  onPageChange={this.props.onPageChange}
                 />
               );
             })}

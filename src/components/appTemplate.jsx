@@ -4,7 +4,12 @@ class AppTemplate extends Component {
   handleTemplate = () => {
     if (this.props.category === "movies" || this.props.category === "books") {
       return (
-        <div className="appTemplate movies">
+        <div
+          className="appTemplate movies"
+          onClick={() =>
+            this.props.onPageChange(this.props.img, this.props.desc)
+          }
+        >
           <div>
             <img src={process.env.PUBLIC_URL + this.props.img} alt="" />
           </div>
@@ -15,7 +20,16 @@ class AppTemplate extends Component {
       );
     } else {
       return (
-        <div className="appTemplate apps">
+        <div
+          className="appTemplate apps"
+          onClick={() =>
+            this.props.onPageChange(
+              this.props.img,
+              this.props.desc,
+              this.props.size
+            )
+          }
+        >
           <div>
             <img src={process.env.PUBLIC_URL + this.props.img} alt="" />
           </div>
