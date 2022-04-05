@@ -70,9 +70,12 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-            <button>Install</button><a href="http://example.com/">
-    ...your markup here...
-</a>
+            <button>Install</button><a
+              href="https://www.sololearn.com/Profile/14446862"
+              target="_blank"
+              rel="noreferrer"
+            >
+            </a>
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
