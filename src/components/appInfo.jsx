@@ -70,12 +70,9 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-            <button>Install</button><a
-              href="https://www.sololearn.com/Profile/14446862"
-              target="_blank"
-              rel="noreferrer"
-            >
-            </a>
+            <button>Install</button><Link to={{ pathname: "https://twitter.com/Turkcell" }} 
+target="_blank"><i className="icon icon-twitter"/>
+</Link> 
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
