@@ -6,24 +6,6 @@ class Games extends Component {
     const games = {
       recommended: [
         {
-          id: 1,
-          img: "/games_img/recommended/Among.webp",
-          desc: "Among Us",
-          size: "71 MB",
-        },
-        {
-          id: 2,
-          img: "/games_img/recommended/cover-fire.webp",
-          desc: "Cover Fire: free shooting games",
-          size: "338 MB",
-        },
-        {
-          id: 3,
-          img: "/games_img/recommended/energy-anti-stress.webp",
-          desc: "Energy: Anti Stress Loops",
-          size: "34 MB",
-        },
-        {
           id: 4,
           img: "/games_img/recommended/hunter-assassin.webp",
           desc: "Hunter Assassin",
