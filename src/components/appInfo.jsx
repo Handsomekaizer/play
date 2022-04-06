@@ -70,7 +70,7 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-            <button>Install</button><link rel="button" href="https://chkip.info">
+            <button>Install</button>
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
