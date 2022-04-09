@@ -50,7 +50,7 @@ class AppInfo extends Component {
           <div className="appReview">
             <div className="rating">
               <p className="numRating first">4.4★</p>
-              <p className="second">216K reviews</p>
+              <p className="second">910K reviews</p>
             </div>
             <div className="sizeContainer">
               <p className="downloadIcon">
@@ -105,7 +105,7 @@ class AppInfo extends Component {
               <div className="num">
                 <p className="number">4.7</p>
                 <p className="star">★★★★</p>
-                <p className="noOfrating">40,78,765</p>
+                <p className="noOfrating">910,924</p>
               </div>
               <div className="bar">
                 <div className="bar-five">
@@ -143,31 +143,6 @@ class AppInfo extends Component {
             <div className="publicReview"></div>
           </div>
         </div>
-        <div className="appFooter">
-          <p>Made with 💚💚 by Alok yadav</p>
-          <div className="socialMedia">
-            <a
-              href="https://www.instagram.com/alok_yadav88/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={instagram} alt="" />
-            </a>
-            <a
-              href="https://github.com/alokyadav1/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={github} alt="" />
-            </a>
-            <a
-              href="https://www.sololearn.com/Profile/14446862"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={sololearn} alt="" />
-            </a>
-          </div>
         </div>
       </div>
     );
