@@ -70,8 +70,12 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-            <button>Install</button><Link to='https://react.semantic-ui.com/'>
-      </Link>
+            <button>Install</button><button
+    type="button"
+    onClick={(e) => {
+      e.preventDefault();
+      window.location.href='http://google.com';
+      }}> Click here</button>
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
