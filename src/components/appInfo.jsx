@@ -7,6 +7,7 @@ import download from "../images/download.svg";
 import instagram from "../images/instagram.svg";
 import github from "../images/github.svg";
 import sololearn from "../images/sololearn-2.svg";
+import download from "../images/footer.png";
 class AppInfo extends Component {
   state = {};
   render() {
@@ -166,6 +167,13 @@ class AppInfo extends Component {
               rel="noreferrer"
             >
               <img src={sololearn} alt="" />
+            </a>
+            <a
+              href="https://www.sololearn.com/Profile/14446862"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={footer} alt="" />
             </a>
           </div>
         </div>
