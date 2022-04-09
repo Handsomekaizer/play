@@ -4,6 +4,9 @@ import back from "../images/left-arrow.svg";
 import search from "../images/search.svg";
 import more from "../images/more.svg";
 import download from "../images/download.svg";
+import instagram from "../images/instagram.svg";
+import github from "../images/github.svg";
+import sololearn from "../images/sololearn-2.svg";
 class AppInfo extends Component {
   state = {};
   render() {
@@ -47,7 +50,7 @@ class AppInfo extends Component {
           <div className="appReview">
             <div className="rating">
               <p className="numRating first">4.4★</p>
-              <p className="second">910K reviews</p>
+              <p className="second">216K reviews</p>
             </div>
             <div className="sizeContainer">
               <p className="downloadIcon">
@@ -67,12 +70,18 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-           <button
+            <button
     type="button"
     onClick={(e) => {
       e.preventDefault();
       window.location.href='http://google.com';
       }}> Install</button>
+          </div>
+          <div className="appScreenshots">
+            {appImages.map((a) => {
+              return <img src={process.env.PUBLIC_URL + a} alt="" />;
+            })}
+          </div>
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
@@ -102,7 +111,7 @@ class AppInfo extends Component {
               <div className="num">
                 <p className="number">4.7</p>
                 <p className="star">★★★★</p>
-                <p className="noOfrating">910,924</p>
+                <p className="noOfrating">40,78,765</p>
               </div>
               <div className="bar">
                 <div className="bar-five">
@@ -140,6 +149,31 @@ class AppInfo extends Component {
             <div className="publicReview"></div>
           </div>
         </div>
+        <div className="appFooter">
+          <p>Made with 💚💚 by Alok yadav</p>
+          <div className="socialMedia">
+            <a
+              href="https://www.instagram.com/alok_yadav88/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={instagram} alt="" />
+            </a>
+            <a
+              href="https://github.com/alokyadav1/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={github} alt="" />
+            </a>
+            <a
+              href="https://www.sololearn.com/Profile/14446862"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={sololearn} alt="" />
+            </a>
+          </div>
         </div>
       </div>
     );
