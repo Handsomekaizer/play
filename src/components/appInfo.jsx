@@ -4,8 +4,6 @@ import back from "../images/left-arrow.svg";
 import search from "../images/search.svg";
 import more from "../images/more.svg";
 import download from "../images/download.svg";
-import instagram from "../images/instagram.svg";
-import github from "../images/github.svg";
 class AppInfo extends Component {
   state = {};
   render() {
@@ -145,20 +143,6 @@ class AppInfo extends Component {
        <div className="appFooter">
           <p>Made with 💚💚 by Alok yadav</p>
           <div className="socialMedia">
-            <a
-              href="https://www.instagram.com/alok_yadav88/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={instagram} alt="" />
-            </a>
-            <a
-              href="https://github.com/alokyadav1/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={github} alt="" />
-            </a>
           </div>
         </div>
       </div>
