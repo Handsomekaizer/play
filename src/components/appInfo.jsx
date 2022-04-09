@@ -4,9 +4,6 @@ import back from "../images/left-arrow.svg";
 import search from "../images/search.svg";
 import more from "../images/more.svg";
 import download from "../images/download.svg";
-import instagram from "../images/instagram.svg";
-import github from "../images/github.svg";
-import sololearn from "../images/sololearn-2.svg";
 class AppInfo extends Component {
   state = {};
   render() {
