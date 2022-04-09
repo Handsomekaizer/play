@@ -72,6 +72,12 @@ class AppInfo extends Component {
           <div className="installBtn">
             <button>Install</button>
           </div>
+<div>
+      <Link to='https://react.semantic-ui.com/'>
+      <button type="button" className="btn btn-info">Button</button>
+      </Link>
+      </div>
+    );
           <div className="appScreenshots">
             {appImages.map((a) => {
               return <img src={process.env.PUBLIC_URL + a} alt="" />;
