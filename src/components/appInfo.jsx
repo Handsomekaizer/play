@@ -82,12 +82,6 @@ class AppInfo extends Component {
               return <img src={process.env.PUBLIC_URL + a} alt="" />;
             })}
           </div>
-          </div>
-          <div className="appScreenshots">
-            {appImages.map((a) => {
-              return <img src={process.env.PUBLIC_URL + a} alt="" />;
-            })}
-          </div>
           <div className="aboutApp">
             <div className="title">
               <h4>About this app</h4>
