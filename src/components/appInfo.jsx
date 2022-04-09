@@ -143,7 +143,6 @@ class AppInfo extends Component {
             <div className="publicReview"></div>
           </div>
         </div>
-    );
   }
 }
 
