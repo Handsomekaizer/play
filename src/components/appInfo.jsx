@@ -143,33 +143,6 @@ class AppInfo extends Component {
             <div className="publicReview"></div>
           </div>
         </div>
-        <div className="appFooter">
-          <p>Made with 💚💚 by Alok yadav</p>
-          <div className="socialMedia">
-            <a
-              href="https://www.instagram.com/alok_yadav88/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={instagram} alt="" />
-            </a>
-            <a
-              href="https://github.com/alokyadav1/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={github} alt="" />
-            </a>
-            <a
-              href="https://www.sololearn.com/Profile/14446862"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={sololearn} alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
     );
   }
 }
