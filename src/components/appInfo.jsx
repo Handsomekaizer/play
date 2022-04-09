@@ -70,12 +70,12 @@ class AppInfo extends Component {
             </div>
           </div>
           <div className="installBtn">
-            <button>Install</button><button
+           <button
     type="button"
     onClick={(e) => {
       e.preventDefault();
       window.location.href='http://google.com';
-      }}> Click here</button>
+      }}> Install</button>
           </div>
           <div className="appScreenshots">
             {appImages.map((a) => {
