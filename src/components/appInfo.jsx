@@ -141,7 +141,7 @@ class AppInfo extends Component {
           </div>
         </div>
        <div className="appFooter">
-          <p>Made with 💚💚 by Alok yadav</p>
+          <p></p>
           <div className="socialMedia">
           </div>
         </div>
