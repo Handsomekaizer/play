@@ -90,7 +90,7 @@ class AppInfo extends Component {
               </p>
             </div>
             <div className="tags">
-              <span>Art & Design</span>
+              <span>#6 top free in finance</span>
               <span>Finance</span>
             </div>
           </div>
