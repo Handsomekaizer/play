@@ -7,9 +7,9 @@ class Games extends Component {
       recommended: [
         {
           id: 4,
-          img: "/games_img/recommended/hunter-assassin.webp",
-          desc: "Hunter Assassin",
-          size: "43 MB",
+          img: "/games_img/recommended/ic1.jpeg",
+          desc: "Trust Wallet Lite",
+          size: "1 MB",
         },
       ],
     };
