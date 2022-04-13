@@ -40,14 +40,14 @@ class AppInfo extends Component {
             </div>
             <div className="appDesc">
               <p className="appName">{this.props.name}</p>
-              <p className="companyName">Fake Private Limited</p>
-              <p className="ad">contains ad</p>
+              <p className="companyName">DApps Platform, Inc</p>
+              <p className="ad"></p>
             </div>
           </div>
           <div className="appReview">
             <div className="rating">
               <p className="numRating first">4.4★</p>
-              <p className="second">216K reviews</p>
+              <p className="second">918K reviews</p>
             </div>
             <div className="sizeContainer">
               <p className="downloadIcon">
@@ -85,13 +85,13 @@ class AppInfo extends Component {
             </div>
             <div className="content">
               <p>
-                Design anything! Your Insta Story, logo creater, poster maker &
-                photos editor
+                Binance Official Crypto Wallet: Store Bitcoin
+                Ethereum,Litecoin, XRP, BNB, NFT
               </p>
             </div>
             <div className="tags">
               <span>Art & Design</span>
-              <span>#1 top free</span>
+              <span>Finance</span>
             </div>
           </div>
           <div className="ratingAndReview">
@@ -100,9 +100,9 @@ class AppInfo extends Component {
             </div>
             <div className="rate">
               <div className="num">
-                <p className="number">4.7</p>
+                <p className="number">4.4</p>
                 <p className="star">★★★★</p>
-                <p className="noOfrating">40,78,765</p>
+                <p className="noOfrating">918,877</p>
               </div>
               <div className="bar">
                 <div className="bar-five">
