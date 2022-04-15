@@ -20,7 +20,7 @@ class Footer extends Component {
           <img src={appIcon} alt="" id="Movies" />
           <span id="Movies"></span>
         </div>
-        <div onClick={(e) => this.props.onTabChange(e)} id="Books">
+        <div onClick={(e) => this.props.onTabChange(e)} id="#">
           <img src={appIcon} alt="" id="Books" />
           <span id="Books"></span>
         </div>
