@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/header.css";
-import g1 from "../images/g1.jpeg";
+import g2 from "../images/g1.jpeg";
 import menu from "../images/menu.svg";
 import voiceSearch from "../images/keyboard-voice.svg";
 class Header extends Component {
@@ -49,7 +49,7 @@ class Header extends Component {
           <img src={menu} alt="menu" onClick={this.props.showMenu} />
           <input type="text" placeholder={this.props.placeholder} />
           <img src={voiceSearch} alt="voice search" className="voiceSearch" />
-          <img src={g1} alt="" className="avatar" />
+          <img src={g2} alt="" className="avatar" />
         </div>
         {handleHeaderTab()}
       </header>
