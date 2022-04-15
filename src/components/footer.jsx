@@ -14,15 +14,15 @@ class Footer extends Component {
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="Apps">
           <img src={appIcon} alt="" id="Apps" />
-          <span id="Apps">Apps</span>
+          <span id="Apps"></span>
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="Movies">
           <img src={movieIcon} alt="" id="Movies" />
-          <span id="Movies">Movies</span>
+          <span id="Movies"></span>
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="Books">
           <img src={bookIcon} alt="" id="Books" />
-          <span id="Books">Books</span>
+          <span id="Books"></span>
         </div>
       </footer>
     );
