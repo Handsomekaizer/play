@@ -10,7 +10,7 @@ class Footer extends Component {
       <footer className="footer">
         <div onClick={(e) => this.props.onTabChange(e)} id="Games">
           <img src={gameIcon} alt="" id="Games" />
-          <span id="Games">Games</span>
+          <span id="Games">Apps</span>
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="Apps">
           <img src={appIcon} alt="" id="Apps" />
@@ -21,7 +21,7 @@ class Footer extends Component {
           <span id="Movies"></span>
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="Books">
-          <img src={bookIcon} alt="" id="Books" />
+          <img src={bookIco} alt="" id="Books" />
           <span id="Books"></span>
         </div>
       </footer>
