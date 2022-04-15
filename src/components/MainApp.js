@@ -21,7 +21,7 @@ class App extends Component {
     activeTab: <Games onPageChange={this.handlePageState} />,
     beforeUpdate: <Games onPageChange={this.handlePageState} />,
     headerTab: "Apps",
-    placeholder: "Search for Apps",
+    placeholder: "Google Playstore",
     activePage: "Homepage",
     imgIcon: null,
     appName: null,
@@ -77,7 +77,7 @@ class App extends Component {
           activeTab: <Games onPageChange={this.handlePageState} />,
           beforeUpdate: <Games onPageChange={this.handlePageState} />,
           HeaderTab: "Games",
-          placeholder: "Search for Apps",
+          placeholder: "Google Playstore",
         });
         break;
       case "Apps":
@@ -93,7 +93,7 @@ class App extends Component {
           activeTab: <Movies onPageChange={this.handlePageState} />,
           beforeUpdate: <Movies onPageChange={this.handlePageState} />,
           HeaderTab: "Movies",
-          placeholder: "Search for Apps",
+          placeholder: "Google Playstore",
         });
         break;
       case "Books":
@@ -101,7 +101,7 @@ class App extends Component {
           activeTab: <Books onPageChange={this.handlePageState} />,
           beforeUpdate: <Books onPageChange={this.handlePageState} />,
           HeaderTab: "Books",
-          placeholder: "Search Apps",
+          placeholder: "Google Playstore",
         });
         break;
       default:
@@ -109,7 +109,7 @@ class App extends Component {
           activeTab: <Games onPageChange={this.handlePageState} />,
           beforeUpdate: <Games onPageChange={this.handlePageState} />,
           HeaderTab: "Games",
-          placeholder: "Search for Apps",
+          placeholder: "Google Playstore",
         });
     }
   };
