@@ -8,17 +8,17 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div onClick={(e) => this.props.onTabChange(e)} id="Games">
-          <img src={appIcon} alt="" id="Games" />
-          <span id="Games">Apps</span>
+        <div onClick={(e) => this.props.onTabChange(e)} id="#">
+          <img src={appIcon} alt="" id="#" />
+          <span id="Games"></span>
         </div>
-        <div onClick={(e) => this.props.onTabChange(e)} id="Apps">
-          <img src={appIcon} alt="" id="Apps" />
-          <span id="Apps"></span>
+        <div onClick={(e) => this.props.onTabChange(e)} id="#">
+          <img src={appIcon} alt="" id="#" />
+          <span id="#"></span>
         </div>
-        <div onClick={(e) => this.props.onTabChange(e)} id="Movies">
-          <img src={appIcon} alt="" id="Movies" />
-          <span id="Movies"></span>
+        <div onClick={(e) => this.props.onTabChange(e)} id="#">
+          <img src={appIcon} alt="" id="#" />
+          <span id="#"></span>
         </div>
         <div onClick={(e) => this.props.onTabChange(e)} id="#">
           <img src={appIcon} alt="" id="#" />
