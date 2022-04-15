@@ -11,34 +11,34 @@ class Header extends Component {
         return (
           <div className="headerTab">
             <span className="headerTabActive">For you</span>
-            <span>Top Selling</span>
-            <span>New releases</span>
-            <span>Genres</span>
-            <span>Studios</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         );
       } else if (headerTab === "Books") {
         return (
           <div className="headerTab">
-            <span className="books">Ebooks</span>
-            <span>Audiobooks</span>
-            <span>Comics</span>
-            <span>Genres</span>
-            <span>Top selling</span>
-            <span>New Releases</span>
-            <span>Top free</span>
+            <span className="books"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         );
       } else {
         return (
           <div className="headerTab">
             <span className="headerTabActive">For you</span>
-            <span>Top charts</span>
-            <span>Events</span>
-            <span>Premium</span>
-            <span>Categories</span>
-            <span>Children</span>
-            <span>Editor's Choice</span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
         );
       }
