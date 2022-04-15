@@ -49,7 +49,7 @@ class Header extends Component {
           <img src={menu} alt="menu" onClick={this.props.showMenu} />
           <input type="text" placeholder={this.props.placeholder} />
           <img src={voiceSearch} alt="voice search" className="voiceSearch" />
-          <img src={g1} alt="avatar" className="avatar" />
+          <img src={g1} alt="" className="avatar" />
         </div>
         {handleHeaderTab()}
       </header>
