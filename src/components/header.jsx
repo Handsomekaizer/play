@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../css/header.css";
-import avatar from "../images/avatar.jpg";
+import avatar from "../images/g1.jpeg";
 import menu from "../images/menu.svg";
 import voiceSearch from "../images/keyboard-voice.svg";
 class Header extends Component {
