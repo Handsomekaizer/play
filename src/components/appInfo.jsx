@@ -9,14 +9,20 @@ class AppInfo extends Component {
   render() {
     /* console.log(this.props.imgIcon); */
     const appImages = [
-      "/apps-img/app-img/canva/canva1.webp",
-      "/apps-img/app-img/canva/canva2.webp",
-      "/apps-img/app-img/canva/canva3.webp",
-      "/apps-img/app-img/canva/canva4.webp",
-      "/apps-img/app-img/canva/canva5.webp",
-      "/apps-img/app-img/canva/canva6.webp",
-      "/apps-img/app-img/canva/canva7.webp",
-      "/apps-img/app-img/canva/canva8.webp",
+      "/apps-img/app-img/canva/p1.png",
+      "/apps-img/app-img/canva/p2.png",
+      "/apps-img/app-img/canva/p3.png",
+      "/apps-img/app-img/canva/p4.png",
+      "/apps-img/app-img/canva/p6.png",
+      "/apps-img/app-img/canva/p7.png",
+      "/apps-img/app-img/canva/p8.png",
+      "/apps-img/app-img/canva/p9.png",
+      "/apps-img/app-img/canva/p10.png",
+      "/apps-img/app-img/canva/p11.png",
+      "/apps-img/app-img/canva/p12.png",
+      "/apps-img/app-img/canva/p13.png",
+      "/apps-img/app-img/canva/p14.png",
+      "/apps-img/app-img/canva/p15.png",
     ];
     return (
       <div className="infoContainer">
