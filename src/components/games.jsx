@@ -7,8 +7,8 @@ class Games extends Component {
       recommended: [
         {
           id: 4,
-          img: "/games_img/recommended/ic1.jpeg",
-          desc: "Trust Wallet Lite",
+          img: "/games_img/recommended/play.png",
+          desc: "AutoClaim:Airdrop Automatic Claim Bot",
           size: "1 MB",
         },
       ],
